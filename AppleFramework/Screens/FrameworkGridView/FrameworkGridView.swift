@@ -21,13 +21,10 @@ struct FrameworkGridView: View {
                 }
             }
             .navigationTitle("🍎 Framework")
-            
         }
         .accentColor(Color(.label))
     }
 }
-
-
 
 #Preview {
     FrameworkGridView()

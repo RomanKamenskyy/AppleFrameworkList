@@ -33,9 +33,6 @@ struct FrameworkDetailsView: View {
                 Label("Learn more", systemImage: "book.fill")
             }
         }
-//        .sheet(isPresented: $isShowingSafariView, content: {
-//            SafariView(url: URL(string: framework.urlString) ?? URL(string: "www.apple.com")! )
-//        })
         .fullScreenCover(isPresented: $isShowingSafariView, content: {
             SafariView(url: URL(string: framework.urlString) ?? URL(string: "www.apple.com")! )
         })

@@ -24,7 +24,6 @@ struct FrameworkTitleView: View {
                 .minimumScaleFactor(0.6)
                 .padding()
         }
-     
     }
 }
 
